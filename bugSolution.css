@@ -1,0 +1,17 @@
+To fix this, use more specific class names or more specific selectors:
+
+```css
+.primary-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+}
+
+.secondary-button {
+  background-color: lightblue;
+  color: black;
+  padding: 5px 10px;
+}
+```
+
+This approach ensures that styles are applied only to the intended elements.  Consider using BEM (Block, Element, Modifier) methodology for more robust and maintainable CSS.
