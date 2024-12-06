@@ -1,0 +1,11 @@
+The following CSS code snippet uses a class selector that is too general, leading to unintended styling across multiple elements:
+
+```css
+.button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+}
+```
+
+This will apply the button styles to any element with the class "button", even if it's not intended to be a button.  If another element uses this class, it will unexpectedly inherit the button styles.
